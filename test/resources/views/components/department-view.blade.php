@@ -1,17 +1,24 @@
-@props(['TblDeparts'])
+
+@props(['TblDeparts' ])
+<style type="css">
+  .card{
+    
+  }
+  
+</style>
 <main id="main" class="main">
     <section class="section">
       <div class="row">
         <div class="col-lg-11">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Departments</h5>
+              <h1 class="card-title">Departments </h1>
               
-              <table class="table table-hover">
-                <thead>
+              <table class="table table-hover table-bordered">
+                <thead class="thead-dark">
                   <tr>
-                    <th scope="col">Code</th>
-                    <th scope="col">Department Name</th>
+                    <th scope="col"><h3>Code</h3></th>
+                    <th scope="col"><h3>Department Name</h3></th>
                   </tr>
                 </thead>
                 <tbody>

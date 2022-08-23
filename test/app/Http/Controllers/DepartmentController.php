@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Tbldepartment;
+use PDF;
 
 class DepartmentController extends Controller
 {
@@ -25,5 +26,18 @@ class DepartmentController extends Controller
         return view('CreateNewDeparts',[
             'TblDeparts' => Tbldepartment::all(),
         ]);
+    }
+
+    public function deparmentsPdf(Request $req )
+    { 
+        $TblDeparts = Tbldepartment::all();
+        $TblDeparts->dpartcode = $req -> DepCode;
+        $TblDeparts->dpartname = $req -> DepName;
+        $pdf = PDF::loadView('departmentPdf',compact('TblDeparts'));
+        
+        return $pdf->download('Department.pdf',[
+            'TblDeparts' => Tbldepartment::all(),
+        ]);
+        
     }
 }

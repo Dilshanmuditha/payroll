@@ -57,9 +57,11 @@
           </div>
         </div>
       </section>
+      <button type="button" name="pdf"><a href="/DepartmentPdf">PDF</a></button>  
     </main>
     <!-- Departments show -->
-<x-department-view :TblDeparts="$TblDeparts"/>  
+
+    <x-department-view :TblDeparts="$TblDeparts"/>
 
     @include('footer')
   </body>

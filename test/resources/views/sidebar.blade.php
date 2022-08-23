@@ -156,17 +156,17 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="forms-layouts.html">
                   <i class="bi bi-circle"></i><span>Form Layouts</span>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="forms-editors.html">
                   <i class="bi bi-circle"></i><span>Form Editors</span>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="forms-validation.html">
                   <i class="bi bi-circle"></i><span>Form Validation</span>
                 </a>
               </li>
@@ -197,17 +197,17 @@
             </a>
             <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
               <li>
-                <a href="#">
+                <a href="charts-chartjs.html">
                   <i class="bi bi-circle"></i><span>Chart.js</span>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="charts-apexcharts.html">
                   <i class="bi bi-circle"></i><span>ApexCharts</span>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="charts-echarts.html">
                   <i class="bi bi-circle"></i><span>ECharts</span>
                 </a>
               </li>
@@ -220,17 +220,17 @@
             </a>
             <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
               <li>
-                <a href="#">
+                <a href="icons-bootstrap.html">
                   <i class="bi bi-circle"></i><span>Bootstrap Icons</span>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="icons-remix.html">
                   <i class="bi bi-circle"></i><span>Remix Icons</span>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="icons-boxicons.html">
                   <i class="bi bi-circle"></i><span>Boxicons</span>
                 </a>
               </li>

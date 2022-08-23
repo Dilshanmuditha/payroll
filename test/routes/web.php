@@ -51,9 +51,8 @@ Route::post("NewPositionsSave",[NewPositionsController::class,'SaveNewPositionsD
 
 Route::get("NewDepartments",[DepartmentController::class,'showDepartmentdata']);
 Route::post("NewDepartments",[DepartmentController::class,'SaveNewDepartsData']);
-//Route::get("NewDepartments",[DepartmentController::class,'showDepartmentData']);
+Route::get("DepartmentPdf",[DepartmentController::class,'deparmentsPdf']);
 
-//Route::get("NewDepartments",[DepartmentController::class,'ShowDepartmentList']);
 
 Route::view("NewAllowses",'CreateNewAllownses');
 Route::post("NewAllownses",[AlwDeductController::class,'SaveNewADListData']);
